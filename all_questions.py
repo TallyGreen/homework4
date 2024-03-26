@@ -8,16 +8,16 @@ def question1():
     answers = {}
 
     # string "yes" or "no"
-    answers["(a)"] = None
-    answers["(b)"] = None
-    answers["(c)"] = None
-    answers["(d)"] = None
+    answers["(a)"] = "no"
+    answers["(b)"] = "no"
+    answers["(c)"] = "no"
+    answers["(d)"] = "yes"
 
     # explain-string: explanation in english prose
-    answers["(a) explain"] = None
-    answers["(b) explain"] = None
-    answers["(c) explain"] = None
-    answers["(d) explain"] = None
+    answers["(a) explain"] = "because the rule2 and rule7 are not independent of each other"
+    answers["(b) explain"] = "divorced is not inclued in rules"
+    answers["(c) explain"] = " rule 5 overrides rule 3 for instances with medium annual income and currently employed, even though rule 3 might have matched initially "
+    answers["(d) explain"] = "because Rules are not exhaustive "
 
     return answers
 
@@ -46,13 +46,13 @@ def question3():
     answers = {}
 
     # string "yes" or "no"
-    answers["(a)"] = None
-    answers["(b)"] = None
+    answers["(a)"] = "no"
+    answers["(b)"] = "no"
     answers["(c)"] = None
 
     # explain-string: explanation in english prose
-    answers["(a) example"] = None
-    answers["(b) example"] = None
+    answers["(a) example"] = "pigeon will trigger R1 and R3"
+    answers["(b) example"] = "some record "
     answers["(c) example"] = None
 
     return answers
